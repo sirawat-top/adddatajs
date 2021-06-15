@@ -7,11 +7,46 @@
 
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>add data</title>
   </head>
   <body>
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <img src="logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Price
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#" >Less than 150 bath</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Less than 200 bath</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Less than 250 bath</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Less than 300 bath</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class="container" id="pro">
+          <h4>Flower Shop</h4>
     <form >
         <div class="col-auto">
             
@@ -44,10 +79,10 @@
           </div><br>
         
         <div class="col-auto">
-          <button type="button" class="btn btn-primary" id="submitData">Submit</button>
+          <button type="button" class="btn btn-primary" id="submitData">Add to shop</button>
         </div><br>
       </form>
-      <table class="table table-primary">
+      <table class="table">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -59,6 +94,14 @@
           </tr>
         </thead>
         <tbody id="outputTableBody">
+            <tr>
+                <th scope="row">1</th>
+                <td>Hydrangea Flower</td>
+                <td>auttum flower</td>
+                <td><img src="at4.jpg" style="width: 200px; height: 200px;"></td>
+                <td>150.00</td>
+                <td><button>add to cart</button></td>
+              </tr>
          
         </tbody>
       </table>

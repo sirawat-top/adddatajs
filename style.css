@@ -1,0 +1,25 @@
+body
+{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.container-fluid img
+{
+    width: 150px;
+    height: 100px;
+}
+.container
+{
+    margin-top: 50px;
+
+}
+.container h4
+{
+    text-align: center;
+    margin-bottom: 20px;
+    color: aquamarine;
+}
+.container .table
+{
+    
+}

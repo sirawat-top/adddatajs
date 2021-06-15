@@ -32,8 +32,9 @@ function addData(index){
     row.appendChild(cell)
     outputTableBody.appendChild(row)
 }
-var index=1
+var index=2
 submitData.addEventListener('click',(event)=>{
     
     addData(index++)
 })
+
