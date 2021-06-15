@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>add data</title>
+  </head>
+  <body>
+      <div class="container">
+    <form >
+        <div class="col-auto">
+            
+          <label class="visually-hidden" for="name">Name</label>
+          <div class="input-group">
+            <div class="input-group-text">Name</div>
+          <input type="text" class="form-control" id="name" placeholder="name">
+        </div>
+        </div><br>
+        <div class="col-auto">
+          <label class="visually-hidden" for="des">Username</label>
+          <div class="input-group">
+            <div class="input-group-text">Description</div>
+            <input type="text" class="form-control" id="des" placeholder="Description">
+          </div>
+        </div><br>
+        <div class="col-auto">
+            <label class="visually-hidden" for="pic">Username</label>
+            <div class="input-group">
+              <div class="input-group-text">Picture Url</div>
+              <input type="text" class="form-control" id="pic" placeholder="URL">
+            </div>
+          </div><br>
+          <div class="col-auto">
+            <label class="visually-hidden" for="pri">Username</label>
+            <div class="input-group">
+              <div class="input-group-text">Price</div>
+              <input type="text" class="form-control" id="pri" placeholder="Price">
+            </div>
+          </div><br>
+        
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary" id="submitData">Submit</button>
+        </div><br>
+      </form>
+      <table class="table table-primary">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Picture</th>
+            <th scope="col">Price</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody id="outputTableBody">
+         
+        </tbody>
+      </table>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    
+    
+  </body>
+</html>
